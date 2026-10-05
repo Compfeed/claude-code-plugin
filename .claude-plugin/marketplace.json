@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "compfeed",
+  "version": "1.0.0",
+  "description": "Official Compfeed marketplace for Claude Code plugins.",
+  "owner": {
+    "name": "Compfeed",
+    "url": "https://compfeed.com"
+  },
+  "plugins": [
+    {
+      "name": "compfeed",
+      "source": "./plugins/compfeed",
+      "description": "Connect Claude Code to Compfeed",
+      "version": "1.0.0",
+      "author": {
+        "name": "Compfeed",
+        "url": "https://compfeed.com"
+      },
+      "homepage": "https://compfeed.com",
+      "repository": "https://github.com/Compfeed/claude-code-plugin",
+      "keywords": ["compfeed", "compensation", "mcp"],
+      "category": "productivity",
+      "tags": ["compfeed", "compensation", "mcp", "integration"]
+    }
+  ]
+}

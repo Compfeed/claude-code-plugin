@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "compfeed",
+  "displayName": "Compfeed",
+  "version": "1.0.0",
+  "description": "Connect Claude Code to Compfeed",
+  "author": {
+    "name": "Compfeed",
+    "url": "https://compfeed.com"
+  },
+  "homepage": "https://compfeed.com",
+  "repository": "https://github.com/Compfeed/claude-code-plugin",
+  "keywords": ["compfeed", "compensation", "mcp"],
+  "userConfig": {
+    "organization_slug": {
+      "type": "string",
+      "title": "Compfeed organization",
+      "description": "The slug that identifies your organization in its Compfeed URL — for example, an organization at /paksa has the slug \"paksa\". Claude Code uses it to build your endpoint: https://api.compfeed.com/mcp/o/<slug>",
+      "required": true
+    }
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "compfeed": {
+      "type": "http",
+      "url": "https://api.compfeed.com/mcp/o/${user_config.organization_slug}"
+    }
+  }
+}
